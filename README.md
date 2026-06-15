@@ -1,6 +1,9 @@
 # control-jobs-data-pipeline
 Synthetic data pipeline demonstrating SQL, Python, data-quality testing and Azure DevOps CI/CD
-[![Build Status](https://dev.azure.com/dengbeiting/control-jobs-data-pipeline/_apis/build/status%2FBD-design270.control-jobs-data-pipeline?branchName=main)](https://dev.azure.com/dengbeiting/control-jobs-data-pipeline/_build/latest?definitionId=1&branchName=main)
+
+# Control Jobs Data Pipeline
+
+[![Build Status](PASTE-YOUR-AZURE-PIPELINE-BADGE-HERE)](PASTE-YOUR-PIPELINE-LINK-HERE)
 
 ## Project Overview
 
@@ -8,6 +11,7 @@ A synthetic data pipeline that generates and processes 1,200 control-job records
 
 ## Architecture
 
+```text
 Synthetic CSV
     ↓
 Raw SQLite Table
@@ -19,7 +23,6 @@ Daily Summary Table
 Data-Quality Tests
     ↓
 Pipeline Artifact
-
 Technologies
 Python and Pandas
 SQL and SQLite
