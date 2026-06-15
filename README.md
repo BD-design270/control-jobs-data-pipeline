@@ -57,3 +57,5 @@ Azure DevOps CI/CD
 Every push to main automatically generates the data, builds the reporting pipeline, runs the tests and publishes the summary CSV as a pipeline artifact.
 Disclaimer
 This project uses fully synthetic data. It contains no employer data, proprietary code or confidential business logic.
+
+
