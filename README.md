@@ -58,4 +58,12 @@ Every push to main automatically generates the data, builds the reporting pipeli
 Disclaimer
 This project uses fully synthetic data. It contains no employer data, proprietary code or confidential business logic.
 
+### Successful Pipeline Run
+
+![Successful Azure DevOps pipeline](images/azure-pipeline-success.png)
+
+### Reporting Output
+
+![Control-job summary output](images/summary-output.png)
+
 
