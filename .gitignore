@@ -219,3 +219,6 @@ __marimo__/
 
 # Generated synthetic data
 data/control_jobs.csv
+
+data/control_jobs.db
+output/
