@@ -23,6 +23,8 @@ Daily Summary Table
 Data-Quality Tests
     ↓
 Pipeline Artifact
+```
+
 Technologies
 Python and Pandas
 SQL and SQLite
