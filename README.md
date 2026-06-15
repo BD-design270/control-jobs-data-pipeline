@@ -1,6 +1,3 @@
-# control-jobs-data-pipeline
-Synthetic data pipeline demonstrating SQL, Python, data-quality testing and Azure DevOps CI/CD
-
 # Control Jobs Data Pipeline
 
 [![Build Status](PASTE-YOUR-AZURE-PIPELINE-BADGE-HERE)](PASTE-YOUR-PIPELINE-LINK-HERE)
@@ -50,14 +47,18 @@ Failed jobs have failure reasons
 Success rates are between 0% and 100%
 
 Example Output
+```text
 The pipeline creates: output/control_job_daily_summary.csv
+```
 The report summarises total jobs, successful jobs, failures, SLA breaches and success rates by date and business area.
 
+How to Run Locally
+```text
 python -m pip install -r requirements.txt
 python src/generate_data.py
 python src/run_pipeline.py
 python -m pytest tests -v
-
+```
 Azure DevOps CI/CD
 Every push to main automatically generates the data, builds the reporting pipeline, runs the tests and publishes the summary CSV as a pipeline artifact.
 Disclaimer
