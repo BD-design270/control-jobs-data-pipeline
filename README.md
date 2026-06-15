@@ -60,7 +60,7 @@ This project uses fully synthetic data. It contains no employer data, proprietar
 
 ### Successful Pipeline Run
 
-![Successful Azure DevOps pipeline](images/azure-pipeline-success.png)
+![Successful Azure DevOps pipeline](images/azure-pipeline.png)
 
 ### Reporting Output
 
